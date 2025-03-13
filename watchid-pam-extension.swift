@@ -80,7 +80,7 @@ private func parseArguments(argc: Int, argv: vchar) -> [String: String] {
 
 private extension LAPolicy {
     static var deviceOwnerAuthenticationIgnoringUserID: LAPolicy {
-        return .deviceOwnerAuthenticationWithBiometricsOrWatch
+        return .deviceOwnerAuthenticationWithBiometricsOrCompanion
     }
 }
 
